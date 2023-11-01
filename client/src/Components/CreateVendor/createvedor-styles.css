@@ -1,0 +1,49 @@
+.register-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 32px;
+}
+
+.register-title {
+    text-align: center;
+}
+
+.input-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    gap: 8px;
+}
+
+.register-btn {
+    background: #5B994B;
+    width: 162px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 16px;
+    border: 1px solid #39393A;
+    border-radius: 8px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .25s ease-in;
+}
+
+.register-btn:hover {
+    background: #76AF64;
+    transition: .25s ease-in;
+}
+
+input {
+    padding: 8px;
+}
+
+@media screen and (max-width: 767px) {
+    .input-container {
+        flex-direction: column;
+    }
+}

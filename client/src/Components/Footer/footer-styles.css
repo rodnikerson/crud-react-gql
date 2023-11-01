@@ -1,0 +1,19 @@
+.footer-container {
+    width: 100%;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.techs {
+    display: flex;
+    gap: 8px;
+}
+
+.owner {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}

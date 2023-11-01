@@ -1,0 +1,19 @@
+.stores-title {
+    text-align: center;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(324px, 1fr));
+    gap: 32px;
+    padding: 64px 32px;
+}
+
+.card-wrapper {
+    width: 100%;
+}

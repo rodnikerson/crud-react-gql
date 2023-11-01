@@ -1,0 +1,35 @@
+.container {
+    border: 1px solid #000;
+    border-radius: 16px;
+    padding: 12px;
+}
+
+.btns {
+    display: flex;
+    gap: 12px;
+    justify-content: flex-end;
+}
+
+.del-btn {
+    padding: 16px;
+    background-image: url("data:image/svg+xml,%3Csvg fill='%23000000' width='32px' height='32px' viewBox='0 0 16.001 16.001' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='SVGRepo_bgCarrier' stroke-width='0'%3E%3C/g%3E%3Cg id='SVGRepo_tracerCarrier' stroke-linecap='round' stroke-linejoin='round'%3E%3C/g%3E%3Cg id='SVGRepo_iconCarrier'%3E%3Cpath d='M7.5 0C6.4 0 5.355.32 5.355.32L5 .428v1.683A13.88 13.88 0 0 0 2.002 3L2 4H1v1h1l.004 9c0 .439.04.788.15 1.082.111.294.311.528.563.668.503.28 1.12.25 1.953.25h5.664c.833 0 1.45.03 1.953-.25.252-.14.45-.374.56-.668.11-.294.153-.643.153-1.082l-.002-8h-1L12 14c0 .376-.04.603-.088.729-.034.09-.078.129-.11.146-.173.097-.611.125-1.468.125H4.67c-.857 0-1.295-.028-1.469-.125a.267.267 0 0 1-.113-.146v-.002c-.046-.122-.084-.348-.084-.727v-.002L3 5h11V4h-1.002L13 3a13.855 13.855 0 0 0-3-.889V.449L9.67.33S8.757 0 7.5 0zm0 1c.89 0 1.29.155 1.5.22v.739a14.05 14.05 0 0 0-1.498-.084c-.502 0-1.003.032-1.502.086v-.734C6.266 1.157 6.772 1 7.5 1zM5 6v6h1V6zm2 0v6h1V6zm2 0v6h1V6z' fill='gray' font-family='Ubuntu' font-size='15' font-weight='400' letter-spacing='0' style='line-height:125%25;-inkscape-font-specification:Ubuntu;text-align:center' text-anchor='middle' word-spacing='0'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    transition: .25s ease-in;
+}
+
+.edit-btn {
+    padding: 16px;
+    background-image: url("data:image/svg+xml,%3Csvg width='32px' height='32px' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg' fill='%23000000'%3E%3Cg id='SVGRepo_bgCarrier' stroke-width='0'%3E%3C/g%3E%3Cg id='SVGRepo_tracerCarrier' stroke-linecap='round' stroke-linejoin='round'%3E%3C/g%3E%3Cg id='SVGRepo_iconCarrier'%3E%3Cpath d='M0 0v16h9.75L14 11.75V6.28l-1 .986V11H9v4H1V1h11.254L10.28 3H3v1h6.295l-.986 1H3v1h4.322l-.986 1H3v1h2.352l-.987 1H3v1h.62c-.102.183-.148.243-.317.588-.314.638-.7 1.51-1.012 2.492L2 14l.92-.291a18.163 18.163 0 0 0 2.492-1.012c.638-.313.987-.52 1.088-.584l.045-.029L16 2.762l-2-2V0h-.762zm4.89 9.89l1.22 1.22-.178.175c.007-.005-.379.227-.961.514-.215.105-.536.222-.834.338l-.274-.274c.116-.298.233-.62.338-.834.287-.582.518-.966.514-.96z' style='marker:none' color='%23000000' overflow='visible' fill='gray'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    transition: .25s ease-in;
+}
+
+.del-btn:hover,
+.edit-btn:hover {
+    scale: 1.1;
+    transition: .25s ease-in;
+}
